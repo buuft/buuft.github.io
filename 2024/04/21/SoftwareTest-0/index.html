@@ -1,0 +1,338 @@
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content=嘿，我是buuft～欢迎访问！ >
+  <meta name="keywords" content=hexo,theme,MiHoYo >
+
+  <head>
+    <title>
+      《软件测试》知识点复习。。 [ moto ]
+    </title>
+  <meta name="generator" content="Hexo 7.2.0"></head>
+
+  <body>
+
+    <link rel="stylesheet" href="/css/header.css">
+<div class="header">
+  <div class="logo">
+    <span class="pull-left">
+      <a id="site-name" href="/">
+        yangchen&#39;s blog
+      </a>
+    </span>
+  </div>
+  <ul class="nav-list">
+    
+      <li>
+        <a href="/">
+          首页
+        </a>
+      </li>
+      
+  </ul>
+</div>
+
+      <!--<link rel="stylesheet" href="/css/top-header.css">
+<div id="top-bar" class="fixed">
+
+  <a class="goto-top" href="#"></a>
+  <ul class="bar-list bar-list-1">
+    
+      <li>
+        <p>
+          <a href="/">
+            <text class="bar-text bar-p1">
+              首页
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+  </ul>
+</div>-->
+
+        <div id="content-outer">
+          <div class="content-inner">
+            <link rel="stylesheet" href="/css/post.css">
+<div class="posts">
+  <a href="/index.html"><i class="fa fa-home
+replay-btn" aria-hidden="true"></i></a>
+  <div class="post-title">
+    <p>
+      《软件测试》知识点复习。。
+    </p>
+    <hr>
+  </div>
+  <div class="post-content">
+    <p><img src="/2024/04/21/SoftwareTest-0/kb.jpg"></p>
+<p>第一章</p>
+<p>1：软件相对硬件而言，他是一系列按照特定顺序组织的计算机数据和指令。</p>
+<p>2：软件生命周期</p>
+<p> <em><strong>*问题定义–需求分析–软件设计–软件开发–软件测试–软件维护–淘汰*</strong></em></p>
+<p>3：软件开发模型（五个）</p>
+<p><em><strong>*瀑布模型*</strong></em> ：线性开发流程，阶段顺序进行，不灵活</p>
+<p>****快速原型模型****：快速构建软件原型，以便收集反馈并迭代改进</p>
+<p>****迭代模型****：通过多个迭代周期逐步开发软件，每个周期都包括完整的开发流程。</p>
+<p>****螺旋模型****：结合迭代开发和风险分析，每次迭代都进行风险评估。</p>
+<p>****敏捷模型****：以人为核心，强调适应性和灵活性，通过多种方法实现快速迭代和响应变化。</p>
+<p>软件质量的定义：</p>
+<ol>
+<li>满足需求规定</li>
+<li>满足用户需求</li>
+<li>满足用户隐式需求</li>
+</ol>
+<p>软件缺陷：从产品内部看缺陷是产品开发或维护中的错误，毛病等各种问题，从产品外部看缺陷是系统运行中某种功能失效或违背。</p>
+<p>软件缺陷处理流程</p>
+<ol>
+<li>提交</li>
+<li>分配</li>
+<li>确认</li>
+<li>拒绝&#x2F;延期</li>
+<li>处理</li>
+<li>复测</li>
+<li>关闭</li>
+</ol>
+<p>常见缺陷管理工具</p>
+<p><strong>1.</strong> <em><strong>*Bugzilla*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*禅道*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*Jira*</strong></em></p>
+<p>软件测试的定义</p>
+<p>软件测试是使用人工或自动手段运行或测定某个系统的过程，其目的在于检验他是否满足规定的需求，或是弄清楚预期结果与实际结果之间的差异。</p>
+<p>测试阶段分类</p>
+<ol>
+<li>单元测试</li>
+<li>冒烟测试</li>
+<li>集成测试</li>
+<li>系统测试与验收测试</li>
+</ol>
+<p>按照测试技术分类</p>
+<p><strong>1.</strong> ****黑盒测试：****把软件当作一个有输入输出的盒子，他把程序当做成一个输入域到输出域的映射。只要输入数据能得到预期结果即可，不必关心程序内部是怎样实现的。</p>
+<p><strong>2.</strong> ****白盒测试****：白盒测试就是把软件当作成一个透明的盒子，测试人员清楚的知道从输入到输出的每一个过程。</p>
+<p>常见的软件测试模型（四个）</p>
+<p><strong>1.</strong> ****V模型****：</p>
+<p>· 1.是一种基本的测试模型，将开发过程与测试活动紧密结合。</p>
+<p>· 2.每个开发阶段（如需求、设计、编码）都对应一个测试阶段（如需求分析、设计评审、单元测试）。</p>
+<p>· 3.强调在开发的同时进行测试计划和设计。</p>
+<p><strong>2.</strong> <em><strong>*W模型*</strong></em></p>
+<p>· 1.W模型是V模型的变体，它允许并行开发和测试。</p>
+<p>· 2.它将测试活动分布在各个开发阶段，强调测试可以独立于开发进行。</p>
+<p>· 3.支持迭代和增量开发。</p>
+<p><strong>3.</strong> <em><strong>*H模型*</strong></em></p>
+<p>· 1.H模型强调测试可以在整个开发周期中持续进行，不依赖于开发阶段。</p>
+<p>· 2.它将测试视为一个独立的流程，可以与开发并行，也可以根据需要随时启动。</p>
+<p>· 3.适合敏捷开发，因为它允许快速反馈和持续集成。</p>
+<p><strong>4.</strong> <em><strong>*X模型*</strong></em></p>
+<p>·1. X模型是一种极端的敏捷测试模型，它将测试作为软件开发的核心。</p>
+<p>2.它提倡在编写代码之前进行测试，即测试驱动开发（TDD）。</p>
+<p>3.强调测试先行，开发和测试紧密结合，以快速响应变化。</p>
+<p>软件测试原则</p>
+<ol>
+<li>测试应基于客户需求。</li>
+<li>测试要趁早进行。</li>
+<li>穷尽测试是不可能。</li>
+<li>遵循GoodEnough原则。</li>
+<li>测试缺陷要符合二八定理。</li>
+<li>避免缺陷免疫。</li>
+</ol>
+<p> 软件测试的基本流程。</p>
+<ol>
+<li>分析测试需求</li>
+<li>指定测试计划</li>
+<li>设计测试用例</li>
+<li>执行测试计划</li>
+<li>编写测试报告</li>
+</ol>
+<p>第四章</p>
+<p>****性能测试的定义****：软件性能测试是一种验证软件应用在不同工作负载下性能指标是否满足预期目标的测试活动。它旨在评估软件应用在实际运行条件下多方面的性能表现</p>
+<p><em><strong>*性能测试指标：*</strong></em></p>
+<ol>
+<li>响应时间</li>
+<li>吞吐量</li>
+<li>并发用户数</li>
+<li>TPS </li>
+<li>点击率</li>
+<li>资源利用率</li>
+</ol>
+<p><em><strong>*性能测试种类。*</strong></em></p>
+<ol>
+<li>负载测试</li>
+<li>压力测试</li>
+<li>并发测试</li>
+<li>配置测试</li>
+<li>可靠性测试</li>
+<li>容量测试</li>
+</ol>
+<p><em><strong>*性能测试流程*</strong></em></p>
+<ol>
+<li>分析测试性能需求</li>
+<li>指定性能测试计划</li>
+<li>设计性能测试用例</li>
+<li>编写性能测试脚本</li>
+<li>测试执行及监控</li>
+<li>运行结果分析</li>
+<li>提交性能测试报告</li>
+</ol>
+<p>常见性能测试工具</p>
+<p><strong>1.</strong> <em><strong>*Load Runner；*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*VuGen；*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*Controller；*</strong></em></p>
+<p><strong>4.</strong> <em><strong>*Analysis*</strong></em></p>
+<p><strong>5.</strong> <em><strong>*JMeter*</strong></em></p>
+<p><em><strong>*第五章-安全测试*</strong></em></p>
+<p>****安全测试：以发现隐患为目标（****普通测试以发现bug为目标）。</p>
+<p>****安全测试的基本原则****为</p>
+<ol>
+<li>培养正确的思维模式</li>
+<li>尽早测试和经常测试</li>
+<li>选择正确的测试工具</li>
+<li>可能情况下使用源代码</li>
+<li>测试结果文档化</li>
+</ol>
+<p>常见的安全漏洞</p>
+<p><strong>1.</strong> <em><strong>*SQL注入*</strong></em></p>
+<p> ： 恶意将SQL命令人为输入到url，表格，sql查询语句的输入参数中，欺骗服务器执行恶意SQL命令（****应用层****）</p>
+<p><strong>2.</strong> <em><strong>*XSS跨站脚本攻击*</strong></em> ：</p>
+<p>将恶意代码注入网站</p>
+<p>Hacker非法获取用户的Cookie和Session后伪装成用户与真正的网站会话，从事非法活动。</p>
+<p><strong>3.</strong> <em><strong>*CSRF攻击*</strong></em></p>
+<p>跨站请求伪造。</p>
+<p>用户访问信任网站时，在没有退出会话的情况下攻击者会诱使用户点击恶意网站，恶意网站会返回攻击代码同时要求信任网站，这样就将恶意网站的代码发送到信任网站。</p>
+<p>渗透测试：模拟hacker攻击，来评估计算机网络系统安全性能。</p>
+<p>渗透测试流程</p>
+<ol>
+<li>明确目标</li>
+<li>收集信息、</li>
+<li>扫描漏洞</li>
+<li>验证漏洞</li>
+<li>分析信息</li>
+<li>渗透攻击</li>
+<li>整理信息</li>
+<li>编写测试报告</li>
+</ol>
+<p>常见安全测试工具</p>
+<p><strong>1.</strong> <em><strong>*web漏洞扫描工具-AppScan*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*端口扫描工具–Namp*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*抓包工具–Fidder*</strong></em></p>
+<p><strong>4.</strong> <em><strong>*W*</strong></em><em><strong>*eb渗透测试工具–Metaspolit*</strong></em></p>
+<p>​                 <em><strong>*第6章*</strong></em></p>
+<p>什么是自动化测试：把以人为驱动的测试行为转化为机器执行的过程。实际上自动化测试往往通过一些，测试工具或框架，编写自动化测试脚本来模拟手工测试的过程。</p>
+<p><em><strong>*引入自动化测试须满足的条件。*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*项目需求变动不频繁*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*项目周期足够长（半个月以上）*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*自动化脚本可重复使用*</strong></em></p>
+<p>自动化测试的基本流程</p>
+<ol>
+<li>分析测试需求</li>
+<li>制定测试计划</li>
+<li>设计测试用例</li>
+<li>搭建测试啊环境</li>
+<li>编写执行测试脚本</li>
+<li>分析测试结果，记录测试问题</li>
+<li>跟踪测试Bug</li>
+</ol>
+<p><em><strong>*自动化测试实施策略*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*单元测试（白盒）*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*接口测试（黑盒白盒结合）*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*UI测试*</strong></em></p>
+<p><em><strong>*单元测试自动化占比最高其次是接口和UI.*</strong></em></p>
+<p>自动化测试的优势：</p>
+<ol>
+<li>一致性，重复性，准确度可靠程度更高。测试更客观。</li>
+<li>任务自动化解放人力。</li>
+<li>自动执行高复杂度的测试情景</li>
+<li>可以完成人工无法做到的测试，如负载测试，压力测试。</li>
+<li>软件版本更迭后需要进行的回归测试，自动化测试有助于创建持续集成环境，用新构建的测试环境进行自动化测试。</li>
+</ol>
+<p>劣势：</p>
+<ol>
+<li>相对手工测试，对测试人员要求更高</li>
+<li>无法百分百覆盖，不能完全代替人工测试找到Bug</li>
+<li>开发自动化测试脚本的时间成本较大，没有试错机会应对资源浪费</li>
+<li>产品迭代，需要更新脚本。时间成本</li>
+<li>提高效率的同时，不能保证有测试效性。</li>
+</ol>
+<p><em><strong>*自动化测试常见技术*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*录制与回放测试*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*脚本测试*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*数据驱动测试*</strong></em></p>
+<p><em><strong>*常用的自动化测试工具*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*Selenium*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*Katalon Studio*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*UFT*</strong></em></p>
+<p>****持续集成测试：目的是增强软件版本的发布规律和可靠性****。</p>
+<p>​                 第七章</p>
+<p>移动App测试概述：</p>
+<p>移动app是针对手机平板电脑等移动设备连接到互联网的业务或无线网卡业务而开发的应用程序。</p>
+<p>移动app特性：</p>
+<p>移动App是专门运行在手机，平板电脑等移动设备上的软件，如闹钟，日历，微信，微博。与传统pc软件相比，移动app具有以下特性：</p>
+<ol>
+<li>设备多样性</li>
+<li>网络多样性</li>
+<li>平台多样性</li>
+</ol>
+<p><em><strong>*移动app测试与与传统软件测试的区别*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*页面布局不同*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*使用场合不同*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*输入方法不同*</strong></em></p>
+<p><strong>4.</strong> <em><strong>*操作方式不同*</strong></em></p>
+<p>移动app测试要点：</p>
+<ol>
+<li>ui测试 ： 界面布局，图形测试，内容测试。</li>
+<li>功能测试：切换测试，推送测试。</li>
+</ol>
+<p><strong>3.</strong> <em><strong>*专项测试：安装测试，卸载测试，升级测试，交互性测试，弱网测试，耗电量测试*</strong></em></p>
+<p><em><strong>*性能测试*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*边界测试*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*压力测试*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*响应能力测试*</strong></em></p>
+<p><strong>4.</strong> <em><strong>*耗能测试*</strong></em></p>
+<p>移动app测试流程</p>
+<ol>
+<li>接受测试版本</li>
+<li>App版本测试</li>
+<li>UI测试</li>
+<li>功能测试</li>
+<li>专项测试</li>
+<li>正式环境测试</li>
+<li>上线准备</li>
+</ol>
+<p><em><strong>*移动App测试工具*</strong></em></p>
+<p><strong>1.</strong> <em><strong>*Appium*</strong></em></p>
+<p><strong>2.</strong> <em><strong>*UI Automator*</strong></em></p>
+<p><strong>3.</strong> <em><strong>*Monkey*</strong></em></p>
+
+  </div>
+  
+</div>
+          </div>
+        </div>
+
+        <link rel="stylesheet" href="/css/footer.css">
+<div class="bottom-outer">
+  <div class="copyright">©2021 - 2021 By Tanger</div>
+  <div class="framework-info">
+    <span>Power by</span>
+    <a class="a1" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
+    <span class="footer-separator">|</span>
+    <span>Theme by</span>
+    <a class="a2" target="_blank" rel="noopener" href="https://github.com/redhat123456/hexo-theme-MiHoYo">MiHoYo</a>
+  </div>
+</div>
+
+          
+            <!-- scripts list from theme config.yml -->
+            
+              <script src="/js/MiHoYo.js"></script>
+              
+                
+
+  </body>
+
+  </html>
